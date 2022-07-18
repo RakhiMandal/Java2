@@ -1,0 +1,17 @@
+package companyDetail;
+import java.util.Scanner;
+public class Employee 
+{
+	public String name;
+	public int age;
+	
+	public void ReadData()
+	{
+		Scanner obj=new Scanner(System.in);
+		
+		System.out.println("Enter Name:");
+		
+		name=obj.next();
+	}
+
+}

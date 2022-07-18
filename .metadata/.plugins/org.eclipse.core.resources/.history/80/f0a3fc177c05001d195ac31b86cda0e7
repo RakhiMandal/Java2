@@ -1,0 +1,18 @@
+package companyDetail;
+
+import java.util.Scanner;
+
+public class MyClass {
+
+	public static void main(String[] args) 
+	{
+		//Variable declaration
+		Employee emp= new Employee();
+		emp.readData();
+		emp.printData();
+		
+		
+
+	}
+
+}

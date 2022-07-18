@@ -1,0 +1,21 @@
+package myPackage3;
+
+import java.util.Scanner;
+
+public class MyClass {
+
+	public static void main(String[] args) 
+	{
+		//Variable declaration
+		System.out.println("Hello");
+		Scanner obj = new Scanner(System.in);
+		
+		//Read data from user
+		System.out.println("Enter your name:");
+		name=obj.next();
+		
+		System.out.println("Your name is " +name);
+
+	}
+
+}
